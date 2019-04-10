@@ -3,7 +3,7 @@ async function test() {
 
   const password = 'Password';
 
-  const hash = await argon2.hash('password');
+  const hash = await argon2.hash(password);
 
   if (!await argon2.verify(hash, password)) {
     throw new Error('Unable to verify hash');

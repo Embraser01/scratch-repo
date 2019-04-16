@@ -6,13 +6,5 @@
   },
   "dependencies": {
     "argon2": "^0.21.0"
-  },
-  "dependenciesMeta": {
-    "argon2": {
-      "unplugged": true
-    },
-    "node-addon-api": {
-      "unplugged": true
-    }
   }
 }
